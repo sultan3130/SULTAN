@@ -1,0 +1,149 @@
+/* home.css */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f4f8;
+    margin-top: 80px; /* Space for fixed navbar */
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:#ffe4c4;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.nav a {
+    color: #0000ff;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.nav a:hover {
+    background-color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.nav a:active {
+    transform: translateY(0);
+}
+
+/* Home page content styling */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #34495e;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav {
+        padding: 1rem;
+    }
+    
+    .nav a {
+        display: block;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    body {
+        margin-top: 140px; /* More space for stacked mobile nav */
+    }
+}
+
+/* Active link styling */
+.nav a[href="terms.html"] {
+    background-color: #ffffff;
+}
+.nav-brand {
+    color: #0000ff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: auto;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+    
+    .nav-brand {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    /* Terms Page Styling */
+.terms-container {
+    max-width: 800px;
+    margin: 100px auto 2rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+
+.terms-container h1 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+.terms-section {
+    margin: 2rem 0;
+}
+
+.terms-section h2 {
+    color: #34495e;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.terms-section ul {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.terms-section li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+    

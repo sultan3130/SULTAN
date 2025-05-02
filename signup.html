@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon" href="bck.png">
+    <title>SIGNUP</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-brand">BCK Sickbay Management</h1>
+    <a href="home.html">HOME</a>
+    <a href="login.html">LOGIN</a>
+    <a href="signup.html">SIGNUP</a>
+    <a href="terms.html">TERMS AND AGREEMENTS</a>
+    <a href="aboutus.html">ABOUT US</a>
+    </div>
+    <div class="form-container">
+        <h1>SIGN UP</h1>
+        <form action="signup.php" method="post">
+            <label for="Username">Username:</label>
+            <input type="text" id="Username" name="Username" required>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email" required>
+            <label for="DOB">D.O.B:</label>
+            <input type="date" id="DOB" name="DOB" required>
+            <label for="Password">Password:</label>
+            <input type="password" id="Password" name="Password" required>
+            <button type="submit">SIGN UP</button>
+            <button type="reset">CLEAR</button>
+            <div class="link"><a href="login.html">Already have an account?Login.</a></div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
